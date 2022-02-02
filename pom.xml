@@ -15,7 +15,7 @@
         
         <!-- TODO: Add the URL to your own tomcat server. Used to deploy your WAR-file -->
         <!-- IMPORTANT-2: Observe we are NOT using /manager/html but /manager/text for script uploads --> 
-        <remote.server>http://161.35.216.142:8081/manager/text</remote.server>
+        <remote.server>http://138.197.185.221:8081/manager/text</remote.server>
         
     </properties>
     
@@ -104,7 +104,7 @@
                 <version>2.2</version>
                 <configuration>          
                     <server>TomcatServer</server>
-                    <url>http://138.197.185.221</url>
+                    <url>${remote.server}</url>
                     <username>${remote.user}</username>
                     <password>${remote.password}</password>
                     <update>true</update>    
