@@ -104,7 +104,7 @@
                 <version>2.2</version>
                 <configuration>          
                     <server>TomcatServer</server>
-                    <url>http://138.197.185.221:8081/</url>
+                    <url>http://138.197.185.221</url>
                     <username>${remote.user}</username>
                     <password>${remote.password}</password>
                     <update>true</update>    
